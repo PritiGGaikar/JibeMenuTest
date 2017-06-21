@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Menu Page Verification">
+ <test name="Page Open">
+    <classes>
+       <class name="TestScripts.jibe_general_Open" />
+    </classes>
+  </test>
+ 
+ <test name="Page Login">
+    <classes>
+       <class name="TestScripts.jibe_general_Login" />
+    </classes>
+  </test>
+  
+<test name="Menu Testing">
+    <classes>
+       <class name="TestScripts.jibe_menu_testing" />
+    </classes>
+  </test> 
+   
+   
+   <!-- <test name="Test">
+    <classes>
+       <class name="TestScripts.test" />
+    </classes>
+  </test> -->
+  
+</suite>  

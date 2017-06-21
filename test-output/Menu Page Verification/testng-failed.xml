@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Menu Page Verification]">
+  <test name="Page Open(failed)">
+    <classes>
+      <class name="TestScripts.jibe_general_Open">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- TestScripts.jibe_general_Open -->
+    </classes>
+  </test> <!-- Page Open(failed) -->
+  <test name="Page Login(failed)">
+    <classes>
+      <class name="TestScripts.jibe_general_Login">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- TestScripts.jibe_general_Login -->
+    </classes>
+  </test> <!-- Page Login(failed) -->
+  <test name="Menu Testing(failed)">
+    <classes>
+      <class name="TestScripts.jibe_menu_testing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- TestScripts.jibe_menu_testing -->
+    </classes>
+  </test> <!-- Menu Testing(failed) -->
+</suite> <!-- Failed suite [Menu Page Verification] -->
